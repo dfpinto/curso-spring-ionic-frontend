@@ -23,7 +23,7 @@ export class CategoriasPage {
   ionViewDidLoad() {
     // arrow function
     this.categoriaService.findAll().subscribe(response => {this.items = response}, 
-                                              error => {console.log(error)});
+                                              error => {/*console.log(error)*/});
   }
 
 }
